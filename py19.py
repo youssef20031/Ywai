@@ -13,7 +13,7 @@ elif name2 == "fine":
     print("nice")
 else:
     print("hmmm, ok")
-name3 = input("what are your hobies?"  ":")
+name3 = input("what are your hobbies?"  ":")
 if name3 == "coding":
     print("good")
 elif name3 == "sports":
