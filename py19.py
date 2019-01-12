@@ -4,7 +4,11 @@ while True:
     time.sleep(2)
     print("hi", name1)
     break
-name2 = input("how are you"  ":")
+import time
+while True:
+    time.sleep(2)
+    name2 = input("how are you"  ":")
+    break
 if name2 == "good":
     print("nice")
 elif name2 == "bad":
@@ -17,7 +21,11 @@ elif name2 == "fine":
     print("nice")
 else:
     print("hmmm, ok")
-name3 = input("what are your hobbies?"  ":")
+import time
+while True:
+    time.sleep(2)
+    name3 = input("what are your hobbies?"  ":")
+    break
 if name3 == "coding":
     print("good")
 elif name3 == "sports":
