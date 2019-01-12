@@ -34,4 +34,8 @@ while True:
     time.sleep(2)
     print("created by Youssef Maged")
     break
-print("good bye")
+import time
+while True:
+    time.sleep(2)
+    print("good bye")
+    break
