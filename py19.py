@@ -1,5 +1,9 @@
 name1 = input("what's your name" ":")
-print("hi", name1)
+import time
+while True:
+    time.sleep(2)
+    print("hi", name1)
+    break
 name2 = input("how are you"  ":")
 if name2 == "good":
     print("nice")
