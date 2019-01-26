@@ -4,6 +4,7 @@ while True:
     time.sleep(2)
     print("hi", name1)
     break
+# beginning of first question
 import time
 while True:
     time.sleep(2)
@@ -21,6 +22,7 @@ elif name2 == "fine":
     print("nice")
 else:
     print("hmmm, ok")
+# beginning of second question
 import time
 while True:
     time.sleep(2)
@@ -36,6 +38,7 @@ elif name3 == "shouting":
     print("be calm")
 else:
     print("ok")
+# end of questions
 import time
 while True:
     time.sleep(2)
