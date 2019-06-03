@@ -29,7 +29,6 @@ jobs:
       - run:
           name: run tests
           command: |
-            . venv/bin/activate
             python py19.py test
 
       - store_artifacts:
