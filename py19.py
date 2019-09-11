@@ -1,3 +1,35 @@
+from asyncore import loop
+import random
+x = "blue"
+x2 = "python"
+def x():
+    name4 = input("what is my favorite color?"  ":")
+    while x != "name4":
+            print
+            if name4 != "blue":
+                print("try again")
+                while True:
+                    time.sleep(2)
+                    break
+                name4 = input("what is your favorite color?"  ":")
+            else:
+                print("you guessed it!")
+                break
+            print
+def x2():
+    name5 = input("what is my favorite coding language?"  ":")
+    while x != "name4":
+        print
+        if name5 != "python":
+            print("try again")
+            while True:
+                time.sleep(2)
+                break
+            name5 = input("what is my favorite coding language?"  ":")
+        else:
+            print("you guessed it!")
+            break
+        print
 name1 = input("what's your name" ":")
 import time
 while True:
@@ -38,6 +70,11 @@ elif name3 == "shouting":
     print("be calm")
 else:
     print("ok")
+while True:
+    time.sleep(2)
+    break
+x()
+x2()
 # end of questions
 import time
 while True:
@@ -60,3 +97,4 @@ while True:
     print("")
     break
 # end of file
+# finally! my 100 lines of code
