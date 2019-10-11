@@ -1,7 +1,4 @@
-from asyncore import loop
-import random
 x = "blue"
-x2 = "python"
 def x():
     name4 = input("what is my favorite color?"  ":")
     while x != "name4":
@@ -74,6 +71,9 @@ while True:
     time.sleep(2)
     break
 x()
+while True:
+    time.sleep(2)
+    break
 x2()
 # end of questions
 import time
