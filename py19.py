@@ -1,3 +1,4 @@
+#definig function
 def x():
     name4 = input("what is my favorite color?"  ":")
     while x != "name4":
@@ -26,6 +27,7 @@ def x2():
             print("you guessed it!")
             break
         print
+#start of the script
 name1 = input("what's your name" ":")
 import time
 while True:
