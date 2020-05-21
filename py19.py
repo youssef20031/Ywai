@@ -1,4 +1,3 @@
-x = "blue"
 def x():
     name4 = input("what is my favorite color?"  ":")
     while x != "name4":
