@@ -1,18 +1,20 @@
-#definig function
+# defining function
 def x():
     name4 = input("what is my favorite color?"  ":")
     while x != "name4":
-            print
-            if name4 != "blue":
-                print("try again")
-                while True:
-                    time.sleep(2)
-                    break
-                name4 = input("what is your favorite color?"  ":")
-            else:
-                print("you guessed it!")
+        print
+        if name4 != "blue":
+            print("try again")
+            while True:
+                time.sleep(2)
                 break
-            print
+            name4 = input("what is your favorite color?"  ":")
+        else:
+            print("you guessed it!")
+            break
+        print
+
+
 def x2():
     name5 = input("what is my favorite coding language?"  ":")
     while x != "name4":
@@ -27,20 +29,25 @@ def x2():
             print("you guessed it!")
             break
         print
-#start of the script
+
+
+# start of the script
 print("hello")
 import time
+
 while True:
     time.sleep(2)
     break
 name1 = input("what's your name" ":")
 import time
+
 while True:
     time.sleep(2)
     print("hi", name1)
     break
 # beginning of first question
 import time
+
 while True:
     time.sleep(2)
     name2 = input("how are you"  ":")
@@ -59,6 +66,7 @@ else:
     print("hmmm, ok")
 # beginning of second question
 import time
+
 while True:
     time.sleep(2)
     name3 = input("what are your hobbies?"  ":")
@@ -83,21 +91,25 @@ while True:
 x2()
 # end of questions
 import time
+
 while True:
     time.sleep(2)
     print("thank you for using this python script")
     break
 import time
+
 while True:
     time.sleep(2)
     print("created by Youssef Maged")
     break
 import time
+
 while True:
     time.sleep(2)
     print("good bye")
     break
 import time
+
 while True:
     time.sleep(2)
     print("")
