@@ -28,6 +28,11 @@ def x2():
             break
         print
 #start of the script
+print("hello")
+import time
+while True:
+    time.sleep(2)
+    break
 name1 = input("what's your name" ":")
 import time
 while True:
