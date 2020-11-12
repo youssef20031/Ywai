@@ -1,39 +1,40 @@
 # defining function
 def x():
-    name4 = input("what is my favorite color?"  ":")
-    while x != "name4":
+    color = input("what is my favorite color?"  ":")
+    while x != "color":
         print
-        if name4 != "blue":
+        if color != "blue":
             print("try again")
             while True:
                 time.sleep(2)
                 break
-            name4 = input("what is my favorite color?"  ":")
+            color = input("what is my favorite color?"  ":")
         else:
             print("you guessed it!")
             break
-        print
+        
 
 
 def x2():
-    name5 = input("what is my favorite coding language?"  ":")
+    lang = input("what is my favorite coding language?"  ":")
     while x != "name4":
         print
-        if name5 != "python":
+        if lang != "python":
             print("try again")
             while True:
                 time.sleep(2)
                 break
-            name5 = input("what is my favorite coding language?"  ":")
+            lang = input("what is my favorite coding language?"  ":")
         else:
             print("you guessed it!")
             break
-        print
+        
 
 
 # start of the script
-print("hello")
 import time
+print("hello")
+
 
 while True:
     time.sleep(2)
