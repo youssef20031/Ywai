@@ -1,4 +1,8 @@
 # defining function
+from datetime import datetime
+import time
+
+
 def x():
     color = input("what is my favorite color?"  ":")
     while x != "color":
@@ -12,7 +16,6 @@ def x():
         else:
             print("you guessed it!")
             break
-        
 
 
 def x2():
@@ -28,26 +31,27 @@ def x2():
         else:
             print("you guessed it!")
             break
-        
 
 
 # start of the script
-import time
 print("hello")
+while True:
+    time.sleep(2)
+    break
+
+print("it is:" + " " + str(datetime.now()))
 
 
 while True:
     time.sleep(2)
     break
 name1 = input("what's your name" ":")
-import time
 
 while True:
     time.sleep(2)
     print("hi", name1, "😉")
     break
 # beginning of first question
-import time
 
 while True:
     time.sleep(2)
@@ -66,7 +70,6 @@ elif name2 == "fine":
 else:
     print("hmmm, ok")
 # beginning of second question
-import time
 
 while True:
     time.sleep(2)
@@ -91,25 +94,21 @@ while True:
     break
 x2()
 # end of questions
-import time
 
 while True:
     time.sleep(2)
     print("thank you for using this python script")
     break
-import time
 
 while True:
     time.sleep(2)
     print("created by Youssef Maged")
     break
-import time
 
 while True:
     time.sleep(2)
     print("good bye")
     break
-import time
 
 while True:
     time.sleep(2)
