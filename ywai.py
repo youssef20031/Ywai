@@ -40,7 +40,10 @@ while True:
     time.sleep(2)
     break
 
-print("it is:" + " " + str(datetime.now()))
+now = datetime.now()
+
+print("it is:" + " " + str(now.day) + ":" +
+      str(now.month) + ":" + str(now.year))
 
 
 while True:
