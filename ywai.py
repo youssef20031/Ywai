@@ -72,7 +72,7 @@ elif name2 == "nice":
 elif name2 == "fine":
     print("nice")
 else:
-    print("hmmm, ok")
+    print("hmmmm, ok")
 # beginning of second question
 
 while True:
