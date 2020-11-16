@@ -6,7 +6,7 @@ import time
 
 def q1():
     color = input("what is my favorite color?"  ":")
-    while x != "color":
+    while q1 != "color":
         print
         if color != "blue":
             print("try again")
@@ -21,7 +21,7 @@ def q1():
 
 def q2():
     lang = input("what is my favorite coding language?"  ":")
-    while x != "name4":
+    while q2 != "name4":
         print
         if lang != "python":
             print("try again")
@@ -101,17 +101,17 @@ q2()
 
 while True:
     time.sleep(2)
-    print("thank you for using this python script")
+    print("Thank you for using this python script")
     break
 
 while True:
     time.sleep(2)
-    print("created by Youssef Maged")
+    print("Created by Youssef Maged")
     break
 
 while True:
     time.sleep(2)
-    print("good bye")
+    print("Good bye")
     break
 
 while True:
