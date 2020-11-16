@@ -4,7 +4,7 @@ import time
 # defining function
 
 
-def x():
+def q1():
     color = input("what is my favorite color?"  ":")
     while x != "color":
         print
@@ -19,7 +19,7 @@ def x():
             break
 
 
-def x2():
+def q2():
     lang = input("what is my favorite coding language?"  ":")
     while x != "name4":
         print
@@ -92,11 +92,11 @@ else:
 while True:
     time.sleep(2)
     break
-x()
+q1()
 while True:
     time.sleep(2)
     break
-x2()
+q2()
 # end of questions
 
 while True:
