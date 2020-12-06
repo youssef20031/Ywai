@@ -35,7 +35,7 @@ def q2():
 
 
 # start of the script
-print("hello")
+print("hello 😊 :)")
 while True:
     time.sleep(2)
     break
@@ -59,7 +59,7 @@ while True:
 
 while True:
     time.sleep(2)
-    name2 = input("how are you"  ":")
+    name2 = input("how are you today"  ":")
     break
 if name2 == "good":
     print("nice")
@@ -101,17 +101,17 @@ q2()
 
 while True:
     time.sleep(2)
-    print("Thank you for using this python script")
+    print("Thank you for using this python script 😀👍")
     break
 
 while True:
     time.sleep(2)
-    print("Created by Youssef Maged")
+    print("Created by Youssef Maged ❄")
     break
 
 while True:
     time.sleep(2)
-    print("Good bye")
+    print("Good bye 🙋‍♂️")
     break
 
 while True:
