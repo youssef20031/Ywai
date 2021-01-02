@@ -7,7 +7,6 @@ import time
 def q1():
     color = input("what is my favorite color?"  ":")
     while q1 != "color":
-        print
         if color.lower() != "blue":
             print("try again")
             while True:
@@ -22,7 +21,6 @@ def q1():
 def q2():
     lang = input("what is my favorite coding language?"  ":")
     while q2 != "lang":
-        print
         if lang.lower() != "python":
             print("try again")
             while True:
@@ -59,17 +57,17 @@ while True:
 
 while True:
     time.sleep(2)
-    name2 = input("how are you today"  ":")
+    mood = input("how are you today"  ":")
     break
-if name2.lower() == "good":
+if mood.lower() == "good":
     print("nice")
-elif name2.lower() == "bad":
+elif mood.lower() == "bad":
     print("i'am sorry")
-elif name2.lower() == "not good":
+elif mood.lower() == "not good":
     print("it is okay")
-elif name2.lower() == "nice":
+elif mood.lower() == "nice":
     print("very good")
-elif name2.lower() == "fine":
+elif mood.lower() == "fine":
     print("nice")
 else:
     print("hmmmm, ok")
@@ -77,15 +75,15 @@ else:
 
 while True:
     time.sleep(2)
-    name3 = input("what are your hobbies?"  ":")
+    hobby = input("what are your hobbies?"  ":")
     break
-if name3.lower() == "coding":
+if hobby.lower() == "coding":
     print("good")
-elif name3.lower() == "sports":
+elif hobby.lower() == "sports":
     print("nice")
-elif name3.lower() == "nothing":
+elif hobby.lower() == "nothing":
     print("do something")
-elif name3.lower() == "shouting":
+elif hobby.lower() == "shouting":
     print("be calm")
 else:
     print("ok")
