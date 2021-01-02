@@ -8,7 +8,7 @@ def q1():
     color = input("what is my favorite color?"  ":")
     while q1 != "color":
         print
-        if color != "blue":
+        if color.lower() != "blue":
             print("try again")
             while True:
                 time.sleep(2)
@@ -21,9 +21,9 @@ def q1():
 
 def q2():
     lang = input("what is my favorite coding language?"  ":")
-    while q2 != "name4":
+    while q2 != "lang":
         print
-        if lang != "python":
+        if lang.lower() != "python":
             print("try again")
             while True:
                 time.sleep(2)
@@ -61,15 +61,15 @@ while True:
     time.sleep(2)
     name2 = input("how are you today"  ":")
     break
-if name2 == "good":
+if name2.lower() == "good":
     print("nice")
-elif name2 == "bad":
+elif name2.lower() == "bad":
     print("i'am sorry")
-elif name2 == "not good":
+elif name2.lower() == "not good":
     print("it is okay")
-elif name2 == "nice":
+elif name2.lower() == "nice":
     print("very good")
-elif name2 == "fine":
+elif name2.lower() == "fine":
     print("nice")
 else:
     print("hmmmm, ok")
@@ -79,13 +79,13 @@ while True:
     time.sleep(2)
     name3 = input("what are your hobbies?"  ":")
     break
-if name3 == "coding":
+if name3.lower() == "coding":
     print("good")
-elif name3 == "sports":
+elif name3.lower() == "sports":
     print("nice")
-elif name3 == "nothing":
+elif name3.lower() == "nothing":
     print("do something")
-elif name3 == "shouting":
+elif name3.lower() == "shouting":
     print("be calm")
 else:
     print("ok")
@@ -111,7 +111,7 @@ while True:
 
 while True:
     time.sleep(2)
-    print("Good bye 🙋‍♂️")
+    print("Good bye ")
     break
 
 while True:
