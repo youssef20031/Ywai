@@ -4,26 +4,17 @@ import time
 # defining function
 
 
-def q1(color):
-    while color.lower() != "blue":
-        print("try again")
-        while True:
-            time.sleep(2)
-            break
-        color = input("what is my favorite color?"  ":")
+def q(ques,value):
+    question = input(ques)
+    while question.lower() != value:
+            print("try again")
+            while True:
+                time.sleep(2)
+                break
+            question = input(ques)
     else:
         print("you guessed it!")
 
-
-def q2(lang):
-    while lang.lower() != "python":
-        print("try again")
-        while True:
-            time.sleep(2)
-            break
-        lang = input("what is my favorite coding language?"  ":")
-    else:
-        print("you guessed it!")
 
 
 # start of the script
@@ -85,15 +76,16 @@ while True:
     time.sleep(2)
     break
 
-color = input("what is my favorite color?"  ":")
-
-q1(color)
+color = ("what is my favorite color?"  ":")
+val = "blue"
+q(color,val)
 while True:
     time.sleep(2)
     break
 
-lang = input("what is my favorite coding language?"  ":")
-q2(lang)
+lang = "what is my favorite coding language?"  ":"
+val2 = "python"
+q(lang,val2)
 # end of questions
 
 while True:
