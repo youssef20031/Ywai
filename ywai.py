@@ -86,9 +86,6 @@ while True:
 lang = "what is my favorite coding language?"  ":"
 val2 = "python"
 q(lang,val2)
-while True:
-    time.sleep(2)
-    break
 # end of questions
 
 while True:
