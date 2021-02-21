@@ -1,9 +1,9 @@
 ## Quick facts
 
-- this is my first implementation of an AI using python
+- This is my first implementation of an AI using python
 ## How to run the program
  
-- just run ywai.py using python3 (python3 ywai.py)
+- Just run ywai.py using python3 (python3 ywai.py)
 ## License
 
 Copyright (c) Youssef Maged. Ywai is provided
