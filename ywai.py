@@ -1,20 +1,20 @@
 from datetime import datetime
 import time
 
+
 # defining function
 
 
-def q(ques,value):
+def q(ques, value):
     question = input(ques)
     while question.lower() != value:
-            print("Try again")
-            while True:
-                time.sleep(2)
-                break
-            question = input(ques)
+        print("Try again")
+        while True:
+            time.sleep(2)
+            break
+        question = input(ques)
     else:
         print("You guessed it!")
-
 
 
 # start of the script
@@ -27,7 +27,6 @@ now = datetime.now()
 
 print("It is:" + " " + str(now.day) + ":" +
       str(now.month) + ":" + str(now.year))
-
 
 while True:
     time.sleep(2)
@@ -47,7 +46,7 @@ while True:
 if mood.lower() == "good":
     print("Nice")
 elif mood.lower() == "bad":
-    print("I'am sorry")
+    print("I am sorry")
 elif mood.lower() == "not good":
     print("It is okay")
 elif mood.lower() == "nice":
@@ -55,7 +54,7 @@ elif mood.lower() == "nice":
 elif mood.lower() == "fine":
     print("Nice")
 else:
-    print("Hmmmm, ok")
+    print("Hmm, ok")
 # beginning of second question
 
 while True:
@@ -76,16 +75,16 @@ while True:
     time.sleep(2)
     break
 
-color = ("What is my favorite color?"  ":")
+color = "What is my favorite color?"  ":"
 val = "blue"
-q(color,val)
+q(color, val)
 while True:
     time.sleep(2)
     break
 
 lang = "What is my favorite coding language?"  ":"
 val2 = "python"
-q(lang,val2)
+q(lang, val2)
 # end of questions
 
 while True:
@@ -108,5 +107,3 @@ while True:
     print("")
     break
 # end of file
-
-
