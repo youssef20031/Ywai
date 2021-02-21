@@ -1,6 +1,6 @@
 ## Quick facts
 
-- this is my first implementation of an ai using python
+- this is my first implementation of an AI using python
 ## How to run the program
  
 - just run ywai.py using python3 (python3 ywai.py)
