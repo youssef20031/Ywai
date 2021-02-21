@@ -7,13 +7,13 @@ import time
 def q(ques,value):
     question = input(ques)
     while question.lower() != value:
-            print("try again")
+            print("Try again")
             while True:
                 time.sleep(2)
                 break
             question = input(ques)
     else:
-        print("you guessed it!")
+        print("You guessed it!")
 
 
 
@@ -25,65 +25,65 @@ while True:
 
 now = datetime.now()
 
-print("it is:" + " " + str(now.day) + ":" +
+print("It is:" + " " + str(now.day) + ":" +
       str(now.month) + ":" + str(now.year))
 
 
 while True:
     time.sleep(2)
     break
-name1 = input("what's your name" ":")
+name1 = input("What's your name" ":")
 
 while True:
     time.sleep(2)
-    print("hi", name1, "😉")
+    print("Hi", name1, "😉")
     break
 # beginning of first question
 
 while True:
     time.sleep(2)
-    mood = input("how are you today"  ":")
+    mood = input("How are you today"  ":")
     break
 if mood.lower() == "good":
-    print("nice")
+    print("Nice")
 elif mood.lower() == "bad":
-    print("i'am sorry")
+    print("I'am sorry")
 elif mood.lower() == "not good":
-    print("it is okay")
+    print("It is okay")
 elif mood.lower() == "nice":
-    print("very good")
+    print("Very good")
 elif mood.lower() == "fine":
-    print("nice")
+    print("Nice")
 else:
-    print("hmmmm, ok")
+    print("Hmmmm, ok")
 # beginning of second question
 
 while True:
     time.sleep(2)
-    hobby = input("what are your hobbies?"  ":")
+    hobby = input("what is your hobby?"  ":")
     break
 if hobby.lower() == "coding":
-    print("good")
+    print("Good")
 elif hobby.lower() == "sports":
-    print("nice")
+    print("Nice")
 elif hobby.lower() == "nothing":
-    print("do something")
+    print("Do something")
 elif hobby.lower() == "shouting":
-    print("be calm")
+    print("Be calm")
 else:
-    print("ok")
+    print("Ok")
 while True:
     time.sleep(2)
     break
 
-color = ("what is my favorite color?"  ":")
+color = ("What is my favorite color?"  ":")
 val = "blue"
 q(color,val)
 while True:
     time.sleep(2)
     break
 
-lang = "what is my favorite coding language?"  ":"
+lang = "What is my favorite coding language?"  ":"
 val2 = "python"
 q(lang,val2)
 # end of questions
@@ -108,5 +108,5 @@ while True:
     print("")
     break
 # end of file
-# finally! my 100 lines of code
-# i am done
+
+
