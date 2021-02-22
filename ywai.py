@@ -1,3 +1,4 @@
+import random
 from datetime import datetime
 import time
 
@@ -5,7 +6,8 @@ import time
 # defining function
 
 
-def q(ques, value):
+def q(ques, value, arr):
+    print(arr)
     question = input(ques)
     while question.lower() != value:
         print("Try again")
@@ -75,16 +77,18 @@ while True:
     time.sleep(2)
     break
 
-color = "What is my favorite color?"  ":"
-val = "blue"
-q(color, val)
+color = "What is my favorite color in the list above?"  ":"
+val = ["Blue", "Green", "Red", "Yellow", "White", "Pink", "Purple"]
+val_arr = random.choice(val)
+q(color, val_arr, val)
 while True:
     time.sleep(2)
     break
 
-lang = "What is my favorite coding language?"  ":"
-val2 = "python"
-q(lang, val2)
+lang = "What is my favorite coding language from the list above?"  ":"
+val2 = ["Python", "Ruby", "Rust", "C#", "C++", "C", "F", "Sql", "Matlab"]
+val2_arr = random.choice(val2)
+q(lang, val2_arr, val2)
 # end of questions
 
 while True:
