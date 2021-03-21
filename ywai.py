@@ -8,7 +8,7 @@ import time
 
 def q(ques, value, arr):
     print(arr)
-    question = input(ques)
+    question = input(ques).lower
     while question.lower() != value:
         print("Try again")
         while True:
