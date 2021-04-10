@@ -7,8 +7,9 @@ import time
 
 
 def q(ques, value, arr):
+    arr = [arr.capitalize() for arr in arr]
     print(arr)
-    question = input(ques).lower
+    question = input(ques)
     while question.lower() != value:
         print("Try again")
         while True:
@@ -78,7 +79,7 @@ while True:
     break
 
 color = "What is my favorite color in the list above?"  ":"
-val = ["Blue", "Green", "Red", "Yellow", "White", "Pink", "Purple"]
+val = ["blue", "green", "red", "yellow", "white", "pink", "purple"]
 val_arr = random.choice(val)
 q(color, val_arr, val)
 while True:
@@ -86,7 +87,7 @@ while True:
     break
 
 lang = "What is my favorite coding language from the list above?"  ":"
-val2 = ["Python", "Ruby", "Rust", "C#", "C++", "C", "F", "Sql", "Matlab"]
+val2 = ["python", "ruby", "rust", "c#", "c++", "c", "f", "sql", "matlab"]
 val2_arr = random.choice(val2)
 q(lang, val2_arr, val2)
 # end of questions
